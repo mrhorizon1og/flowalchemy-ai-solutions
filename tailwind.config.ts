@@ -88,6 +88,14 @@ export default {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-10px)" },
         },
+        "gradient-shift": {
+          "0%, 100%": { 
+            backgroundPosition: "0% 50%",
+          },
+          "50%": { 
+            backgroundPosition: "100% 50%",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -96,6 +104,7 @@ export default {
         "fade-in-up": "fade-in-up 0.8s ease-out",
         "glow-pulse": "glow-pulse 3s ease-in-out infinite",
         "float": "float 4s ease-in-out infinite",
+        "gradient-shift": "gradient-shift 4s ease infinite",
       },
       backgroundImage: {
         "gradient-primary": "var(--gradient-primary)",

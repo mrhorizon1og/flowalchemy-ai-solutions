@@ -34,7 +34,13 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Transform Your Business
           <br />
-          <span className="bg-gradient-primary bg-clip-text text-transparent">
+          <span 
+            className="bg-clip-text text-transparent animate-gradient-shift"
+            style={{
+              backgroundImage: "linear-gradient(90deg, hsl(195 90% 50%), hsl(280 90% 60%), hsl(195 100% 65%), hsl(195 90% 50%))",
+              backgroundSize: "200% 200%",
+            }}
+          >
             with AI Alchemy
           </span>
         </h1>
