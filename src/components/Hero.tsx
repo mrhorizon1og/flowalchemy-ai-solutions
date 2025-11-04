@@ -29,8 +29,8 @@ const Hero = () => {
             <span className="text-sm font-semibold text-primary">AI Automation Simplified</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-black mb-6 tracking-tight">
-            We Turn Your Manual Processes Into{" "}
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+            Build Smarter, Faster, and More Profitable Systems with{" "}
             <span 
               className="bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent animate-gradient-shift"
               style={{
@@ -38,7 +38,7 @@ const Hero = () => {
                 backgroundImage: "linear-gradient(135deg, hsl(87 100% 51%), hsl(73 100% 60%), hsl(82 88% 52%), hsl(87 100% 51%))"
               }}
             >
-              Money-Making Machines
+              FlowAlchemy
             </span>
           </h1>
 
