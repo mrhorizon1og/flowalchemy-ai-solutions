@@ -42,9 +42,8 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Join 500+ businesses saving 15+ hours weekly with our no-code AI chatbots 
-            and workflow automation. Get your first automation running in 7 days or less.
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+            FlowAlchemy helps modern businesses integrate AI to streamline sales, support, and operations — designing intelligent systems that automate repetitive tasks, connect workflows, and keep your business running seamlessly in a world that never slows down.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
