@@ -65,23 +65,12 @@ const Hero = () => {
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
             Build{" "}
-            <span 
-              className="font-futuristic inline-block min-w-[280px] md:min-w-[400px]"
-              style={{
-                backgroundImage: "linear-gradient(135deg, hsl(87 100% 51%), hsl(73 100% 60%), hsl(82 88% 52%))",
-                backgroundSize: "200% 200%",
-                WebkitBackgroundClip: "text",
-                backgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                filter: "drop-shadow(0 0 20px hsla(87, 100%, 51%, 0.5)) drop-shadow(0 0 40px hsla(87, 100%, 51%, 0.3))",
-              }}
-            >
+            <span className="font-futuristic text-primary inline-block min-w-[280px] md:min-w-[400px] text-left">
               {displayText}
               <span className="animate-pulse">|</span>
             </span>
-            {" "}Systems
             <br />
-            with{" "}
+            Systems with{" "}
             <span 
               className="bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent animate-gradient-shift"
               style={{
