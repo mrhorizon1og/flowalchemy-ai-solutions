@@ -16,7 +16,7 @@ export default {
     fontFamily: {
       sans: ['Inter', 'system-ui', 'sans-serif'],
       display: ['Inter', 'sans-serif'],
-      futuristic: ['Orbitron', 'system-ui', 'sans-serif'],
+      futuristic: ['Space Grotesk', 'system-ui', 'sans-serif'],
     },
       colors: {
         border: "hsl(var(--border))",

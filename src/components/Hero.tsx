@@ -12,8 +12,8 @@ const Hero = () => {
 
   useEffect(() => {
     const currentWord = words[currentWordIndex];
-    const typingSpeed = isDeleting ? 50 : 100;
-    const pauseTime = isDeleting ? 500 : 2000;
+    const typingSpeed = isDeleting ? 40 : 80;
+    const pauseTime = isDeleting ? 300 : 1500;
 
     const timeout = setTimeout(() => {
       if (!isDeleting) {
