@@ -15,7 +15,7 @@ const ChatButton = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-8 right-8 z-50 animate-fade-in">
+    <div className="fixed bottom-24 right-8 z-50 animate-fade-in">
       <Button
         size="lg"
         variant="hero"
