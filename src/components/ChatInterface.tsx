@@ -144,11 +144,8 @@ const ChatInterface = ({ onClose }: ChatInterfaceProps) => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-background/50 backdrop-blur-sm animate-fade-in" onClick={onClose}>
-      <div 
-        className="fixed right-0 top-0 bottom-0 w-full max-w-md bg-gradient-to-br from-card via-card/95 to-card/90 border-l border-primary/20 shadow-glow flex flex-col animate-slide-in-right"
-        onClick={(e) => e.stopPropagation()}
-      >
+    <div className="fixed bottom-24 right-8 z-50 w-96 h-[600px] animate-scale-in">
+      <div className="w-full h-full bg-gradient-to-br from-card via-card/95 to-card/90 border border-primary/20 rounded-2xl shadow-glow flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b border-border/50">
           <div>
