@@ -32,6 +32,11 @@ const Navigation = () => {
     setIsOpen(false);
   };
 
+  const handleContactClick = () => {
+    navigate('/contact');
+    setIsOpen(false);
+  };
+
   const handleLogoClick = () => {
     navigate('/');
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -74,6 +79,12 @@ const Navigation = () => {
           >
             About
           </button>
+          <button
+            onClick={handleContactClick}
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Contact Us
+          </button>
           <Button
             variant="hero"
             size="sm"
@@ -115,6 +126,12 @@ const Navigation = () => {
                 className="text-left text-lg font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
                 About
+              </button>
+              <button
+                onClick={handleContactClick}
+                className="text-left text-lg font-medium text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Contact Us
               </button>
               <Button
                 variant="hero"
